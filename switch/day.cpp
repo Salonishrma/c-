@@ -1,6 +1,32 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2638
-\cocoatextscaling0\cocoaplatform0{\fonttbl}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int day=3;
+    switch(day){
+        case 1:
+        cout<<"Monday";
+        break;
+        case 2:
+        cout<<"Tuesday";
+        break;
+        case 3:
+        cout<<"Wednesday";
+        break;
+        case 4:
+        cout<<"Thursday";
+        break;
+        case 5:
+        cout<<"Friday";
+        break;
+        case 6:
+        cout<<"Saturday";
+        break;
+        case 7:
+        cout<<"Sunday";
+        break;
+    }
+    return 0;
 }
